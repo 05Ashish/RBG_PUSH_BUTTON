@@ -15,7 +15,7 @@ void loop()
 {
   data = digitalRead(2);
   if (data == HIGH){
-  	counter = counter+1;
+  	counter++ ;
     delay(50);
   }
   if (counter == 0){
